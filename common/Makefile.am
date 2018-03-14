@@ -1,11 +1,11 @@
 if !ENABLE_TRANSPARENCY
-themedir        = $(datadir)/themes/Arc-solid
-themedarkerdir  = $(datadir)/themes/Arc-Darker-solid
-themedarkdir    = $(datadir)/themes/Arc-Dark-solid
+themedir        = $(datadir)/themes/TUXEDO-One-solid
+themedarkerdir  = $(datadir)/themes/TUXEDO-One-Darker-solid
+themedarkdir    = $(datadir)/themes/TUXEDO-One-Dark-solid
 else
-themedir        = $(datadir)/themes/Arc
-themedarkerdir  = $(datadir)/themes/Arc-Darker
-themedarkdir    = $(datadir)/themes/Arc-Dark
+themedir        = $(datadir)/themes/TUXEDO-One
+themedarkerdir  = $(datadir)/themes/TUXEDO-One-Darker
+themedarkdir    = $(datadir)/themes/TUXEDO-One-Dark
 endif
 
 ithemedir       = $(DESTDIR)$(themedir)
